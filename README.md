@@ -15,3 +15,23 @@ Sprint Review är ett möte som hålls i slutet av varje sprint där teamet pres
 
 ### 4. Sprint Retrospective
 Sprint Retrospective är det avslutande mötet i sprinten där teamet utvärderar sitt arbete. Tillsammans går de igenom vad som fungerade bra, vilka problem som uppstod och hur de kan förbättra sitt arbetssätt. Teamet identifierar de viktigaste förbättringarna och planerar hur dessa ska genomföras. De mest betydelsefulla förbättringarna kan tas med direkt i nästa sprints backlog.
+
+## Reflektera över hur ni i teamet skapade och rangordnade user-stories, vad fungerade bra? Vad skulle kunna fungera ännu bättre?
+Vår process började med att vi gemensamt analyserade behoven för en insulin-app. Utifrån denna analys diskuterade vi hur våra user stories skulle utformas. Vi utgick från användarens perspektiv och började med de mest grundläggande funktionerna: skapa konto, logga in och lagra blodsockermätningar. Därefter byggde vi vidare och inkluderade även utvecklarens och produktägarens perspektiv. För att prioritera våra stories använde vi MoSCoW-metoden. Senare i arbetet fick vi feedback från en person med diabetes, vilket ledde till att vi skapade nya stories baserade på dessa insikter.
+
+Det som fungerade bra i denna process var:
+
+Att vi började med de mest grundläggande funktionerna gav en tydlig riktning för nästa steg.
+Användningen av MoSCoW-metoden gav en strukturerad prioritering.
+Feedback från en person med diabetes gav värdefulla insikter och hjälpte oss att förbättra våra user stories.
+
+Det som skulle kunna fungera ännu bättre:
+I efterhand skulle det vart bättre om vi bara höll oss till användarens perspektiv och hur vi kunde skapa värde för denna. Det blev lite otydligt och rörigt ibland när vi blandade med utvecklarens perspektiv och kanske inte heller nödvändigt då vi bryter ner stories till mer tekniska tasks.
+
+I vår prioritetslista skulle vi kunnat definiera vad som är en must have eller should  have osv. i en story.
+
+
+
+
+
+
