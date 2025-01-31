@@ -21,16 +21,44 @@ Vår process började med att vi gemensamt analyserade behoven för en insulin-a
 
 ## Det som fungerade bra i denna process var:
 
-- Att vi började med de mest grundläggande funktionerna gav en tydlig riktning för nästa steg.  
-- Användningen av MoSCoW-metoden gav en strukturerad prioritering.  
-- Feedback från en person med diabetes gav värdefulla insikter och hjälpte oss att förbättra våra user stories.  
+- Att vi började med de mest grundläggande funktionerna gav en tydlig riktning. Det gjorde att vi kunde bygga upp funktionaliteten steg för steg och alla i teamet förstod vad som behövde göras först.  
+- MoSCoW-metoden hjälpte oss inte bara att prioritera, utan gjorde det också tydligt för alla i teamet vad som var viktigast att få med i första versionen.
+- Feedback från en person med diabetes gav oss värdefulla insikter om verkliga användarbehov. Detta hjälpte oss att förbättra våra user stories så de bättre matchade vad en användare faktiskt behöver i en insulin-app.
+
 
 ## Det som skulle kunna fungera ännu bättre:
 
 - I efterhand hade det varit bättre om vi enbart fokuserade på användarens perspektiv och hur vi kunde skapa värde för denne.  
   När vi blandade in utvecklarens perspektiv blev det ibland otydligt och rörigt, vilket inte var nödvändigt eftersom vi ändå bryter ner stories till mer tekniska tasks.  
-- I vår prioritetslista hade det varit bra att tydligt definiera vad en user story måste uppfylla för att klassas som Must have eller Should have.  
+- I vår prioritetslista hade det varit bra att tydligt definiera vad en user story måste uppfylla för att klassas som Must have eller Should have osv.  
   Det skulle ha sparat tid och minskat behovet av att flytta om prioriteringar i efterhand.
+
+## Hur skulle din process från user stories till faktisk funktionalitet i en app se ut? Använd någon av era user stories som exempel. Hur skulle du bryta ner en user stories i moment att arbeta med. När vet du om du är klar med en user story?
+Som användare vill jag kunna se blodsockerkurva över vecka för att kunna avläsa mönster över tid
+
+Jag skulle börja med att tänka på databasstrukturen, men vi kan anta att vi redan har blodsockervärden lagrade med tidstämpel för varje användare i databasen. Sedan skulle jag börja med backend-delen och därefter jobba med UI.
+
+##Backend
+1. Skapa en funktion som hämtar blodsockervärdena och tidstämpel på inloggad användare.
+2. Skapa en funktion som filtrerar blodsockervärdena på tidstämpel för vald vecka.
+3. Gör research på grafbibliotek eller hur vi kan använda oss av en graf
+4. Implementera felhantering om data saknas eller är felaktig
+
+##UI
+6. Skapa en layout för grafen med en datumväljare
+7. Implementera grafbiblioteket.
+8. Lägg till interaktion för att välja vecka
+
+En user story är klar när:
+- Funktionaliteten är implementerad
+- Koden är testad och granskad
+- Användaren kan se sin blodsockerkurva över en vecka
+
+
+
+
+
+
 
 
 
