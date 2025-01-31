@@ -19,16 +19,18 @@ Sprint Retrospective är det avslutande mötet i sprinten där teamet utvärdera
 ## Reflektera över hur ni i teamet skapade och rangordnade user-stories, vad fungerade bra? Vad skulle kunna fungera ännu bättre?
 Vår process började med att vi gemensamt analyserade behoven för en insulin-app. Utifrån denna analys diskuterade vi hur våra user stories skulle utformas. Vi utgick från användarens perspektiv och började med de mest grundläggande funktionerna: skapa konto, logga in och lagra blodsockermätningar. Därefter byggde vi vidare och inkluderade även utvecklarens och produktägarens perspektiv. För att prioritera våra stories använde vi MoSCoW-metoden. Senare i arbetet fick vi feedback från en person med diabetes, vilket ledde till att vi skapade nya stories baserade på dessa insikter.
 
-Det som fungerade bra i denna process var:
+## Det som fungerade bra i denna process var:
 
-Att vi började med de mest grundläggande funktionerna gav en tydlig riktning för nästa steg.
-Användningen av MoSCoW-metoden gav en strukturerad prioritering.
-Feedback från en person med diabetes gav värdefulla insikter och hjälpte oss att förbättra våra user stories.
+- Att vi började med de mest grundläggande funktionerna gav en tydlig riktning för nästa steg.  
+- Användningen av MoSCoW-metoden gav en strukturerad prioritering.  
+- Feedback från en person med diabetes gav värdefulla insikter och hjälpte oss att förbättra våra user stories.  
 
-Det som skulle kunna fungera ännu bättre:
-I efterhand skulle det vart bättre om vi bara höll oss till användarens perspektiv och hur vi kunde skapa värde för denna. Det blev lite otydligt och rörigt ibland när vi blandade med utvecklarens perspektiv och kanske inte heller nödvändigt då vi bryter ner stories till mer tekniska tasks.
+## Det som skulle kunna fungera ännu bättre:
 
-I vår prioritetslista skulle vi kunnat definiera vad som är en must have eller should  have osv. i en story.
+- I efterhand hade det varit bättre om vi enbart fokuserade på användarens perspektiv och hur vi kunde skapa värde för denne.  
+  När vi blandade in utvecklarens perspektiv blev det ibland otydligt och rörigt, vilket inte var nödvändigt eftersom vi ändå bryter ner stories till mer tekniska tasks.  
+- I vår prioritetslista hade det varit bra att tydligt definiera vad en user story måste uppfylla för att klassas som Must have eller Should have.  
+  Det skulle ha sparat tid och minskat behovet av att flytta om prioriteringar i efterhand.
 
 
 
