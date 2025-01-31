@@ -38,13 +38,13 @@ Som användare vill jag kunna se blodsockerkurva över vecka för att kunna avl�
 
 Jag skulle börja med att tänka på databasstrukturen, men vi kan anta att vi redan har blodsockervärden lagrade med tidstämpel för varje användare i databasen. Sedan skulle jag börja med backend-delen och därefter jobba med UI.
 
-##Backend
+## Backend
 1. Skapa en funktion som hämtar blodsockervärdena och tidstämpel på inloggad användare.
 2. Skapa en funktion som filtrerar blodsockervärdena på tidstämpel för vald vecka.
 3. Gör research på grafbibliotek eller hur vi kan använda oss av en graf
 4. Implementera felhantering om data saknas eller är felaktig
 
-##UI
+## UI
 6. Skapa en layout för grafen med en datumväljare
 7. Implementera grafbiblioteket.
 8. Lägg till interaktion för att välja vecka
